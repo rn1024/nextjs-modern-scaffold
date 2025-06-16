@@ -1,0 +1,310 @@
+{
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "cancel": "取消",
+    "confirm": "确认",
+    "save": "保存",
+    "edit": "编辑",
+    "delete": "删除",
+    "close": "关闭",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "submit": "提交",
+    "search": "搜索",
+    "filter": "筛选",
+    "sort": "排序",
+    "view": "查看",
+    "download": "下载",
+    "upload": "上传",
+    "copy": "复制",
+    "share": "分享",
+    "settings": "设置",
+    "profile": "个人资料",
+    "logout": "退出登录",
+    "login": "登录",
+    "register": "注册",
+    "home": "首页",
+    "about": "关于",
+    "contact": "联系我们",
+    "dashboard": "仪表板",
+    "welcome": "欢迎",
+    "getStarted": "开始使用",
+    "learnMore": "了解更多"
+  },
+  "navigation": {
+    "home": "首页",
+    "about": "关于",
+    "contact": "联系我们",
+    "dashboard": "仪表板",
+    "login": "登录",
+    "register": "注册",
+    "profile": "个人资料",
+    "settings": "设置",
+    "logout": "退出登录"
+  },
+  "nav": {
+    "home": "首页",
+    "dashboard": "仪表板",
+    "docs": "文档",
+    "help": "帮助",
+    "profile": "个人资料",
+    "settings": "设置",
+    "signOut": "退出登录",
+    "signIn": "登录",
+    "signUp": "注册"
+  },
+  "languages": {
+    "selectLanguage": "选择语言",
+    "english": "English",
+    "chinese": "中文"
+  },
+  "auth": {
+    "signIn": "登录",
+    "signUp": "注册",
+    "signOut": "退出登录",
+    "email": "邮箱",
+    "password": "密码",
+    "confirmPassword": "确认密码",
+    "forgotPassword": "忘记密码？",
+    "rememberMe": "记住我",
+    "alreadyHaveAccount": "已有账户？",
+    "dontHaveAccount": "还没有账户？",
+    "signInWithGoogle": "使用 Google 登录",
+    "signInWithGitHub": "使用 GitHub 登录",
+    "orContinueWith": "或者使用",
+    "welcomeBack": "欢迎回来",
+    "createAccount": "创建账户",
+    "signInToAccount": "登录到您的账户",
+    "enterEmailPassword": "输入您的邮箱和密码以登录",
+    "enterDetailsToCreate": "输入您的详细信息以创建账户",
+    "invalidCredentials": "无效的凭据",
+    "accountCreated": "账户创建成功",
+    "signedIn": "登录成功",
+    "signedOut": "退出登录成功",
+    "emailRequired": "邮箱是必需的",
+    "passwordRequired": "密码是必需的",
+    "passwordTooShort": "密码至少需要8个字符",
+    "passwordsDoNotMatch": "密码不匹配",
+    "invalidEmail": "无效的邮箱地址",
+    "login": {
+      "error": "登录错误",
+      "success": "登录成功",
+      "invalidCredentials": "邮箱或密码无效",
+      "welcomeBack": "欢迎回来！",
+      "somethingWrong": "出现了一些问题，请重试。",
+      "continueWithGithub": "使用 GitHub 继续",
+      "continueWithGoogle": "使用 Google 继续",
+      "orContinueWith": "或使用邮箱继续",
+      "email": "邮箱",
+      "password": "密码",
+      "emailPlaceholder": "请输入您的邮箱",
+      "passwordPlaceholder": "请输入您的密码",
+      "signIn": "登录",
+      "forgotPassword": "忘记密码？"
+    },
+    "register": {
+      "error": "注册错误",
+      "success": "注册成功",
+      "nameRequired": "姓名是必需的",
+      "emailRequired": "邮箱是必需的",
+      "passwordTooShort": "密码至少需要8个字符",
+      "passwordMismatch": "密码不匹配",
+      "acceptTermsRequired": "您必须接受条款和条件",
+      "accountCreated": "账户创建成功！",
+      "somethingWrong": "出现了一些问题，请重试。",
+      "continueWithGithub": "使用 GitHub 继续",
+      "continueWithGoogle": "使用 Google 继续",
+      "orContinueWith": "或使用邮箱继续",
+      "name": "姓名",
+      "email": "邮箱",
+      "password": "密码",
+      "confirmPassword": "确认密码",
+      "namePlaceholder": "请输入您的姓名",
+      "emailPlaceholder": "请输入您的邮箱",
+      "passwordPlaceholder": "创建密码",
+      "confirmPasswordPlaceholder": "确认您的密码",
+      "passwordHint": "至少需要8个字符",
+      "acceptTerms": "我同意",
+      "termsOfService": "服务条款",
+      "and": "和",
+      "privacyPolicy": "隐私政策",
+      "createAccount": "创建账户"
+    }
+  },
+  "home": {
+    "title": "NextJS 现代脚手架",
+    "subtitle": "现代化的 Next.js 15 脚手架，集成 TypeScript、Tailwind CSS、Shadcn UI、NextAuth、Supabase、国际化和 AI 功能",
+    "description": "一个生产就绪的模板，包含构建出色 Web 应用程序所需的所有现代工具和最佳实践。",
+    "features": {
+      "title": "特性",
+      "auth": {
+        "title": "身份验证",
+        "description": "NextAuth 5.0 支持 OAuth 提供商和会话管理"
+      },
+      "i18n": {
+        "title": "国际化",
+        "description": "支持13种语言的动态路由"
+      },
+      "ui": {
+        "title": "现代化 UI",
+        "description": "Shadcn UI 组件支持深色/浅色主题"
+      },
+      "dx": {
+        "title": "开发体验",
+        "description": "TypeScript、ESLint、Prettier 和热重载"
+      }
+    },
+    "cta": {
+      "primary": "开始使用",
+      "secondary": "查看文档"
+    }
+  },
+  "dashboard": {
+    "title": "仪表板",
+    "welcome": "欢迎来到您的仪表板，{name}！",
+    "subtitle": "这是您今天账户的最新动态。",
+    "status": "所有系统运行正常",
+    "overview": "概览",
+    "overviewDescription": "快速了解您的关键指标和最近活动。",
+    "analytics": "分析",
+    "activity": "活动",
+    "reports": "报告",
+    "users": "用户",
+    "settings": "设置",
+    "recentActivity": "最近活动",
+    "quickActions": "快速操作",
+    "userProfile": "用户资料",
+    "stats": {
+      "totalUsers": "总用户数",
+      "activeUsers": "活跃用户",
+      "revenue": "收入",
+      "growth": "增长",
+      "totalUsersDesc": "注册用户总数",
+      "activeUsersDesc": "本周活跃用户",
+      "revenueDesc": "本月总收入",
+      "growthDesc": "本季度增长率",
+      "fromLastMonth": "较上月",
+      "fromLastWeek": "较上周",
+      "fromLastQuarter": "较上季度"
+    },
+    "quickActions": {
+      "createProject": "创建项目",
+      "createProjectDesc": "开始一个新项目",
+      "newDocument": "新建文档",
+      "newDocumentDesc": "创建新文档",
+      "inviteUsers": "邀请用户",
+      "inviteUsersDesc": "邀请团队成员",
+      "viewAnalytics": "查看分析",
+      "viewAnalyticsDesc": "查看您的分析数据",
+      "exportData": "导出数据",
+      "exportDataDesc": "导出您的数据",
+      "importData": "导入数据",
+      "importDataDesc": "导入外部数据",
+      "sendNewsletter": "发送通讯",
+      "sendNewsletterDesc": "向订阅者发送通讯",
+      "manageSettings": "管理设置",
+      "manageSettingsDesc": "配置您的设置"
+    },
+    "recentActivity": {
+      "documentCreated": "文档已创建",
+      "documentCreatedDesc": "新项目文档",
+      "userJoined": "用户加入",
+      "userJoinedDesc": "新团队成员加入",
+      "codeCommitted": "代码提交",
+      "codeCommittedDesc": "最新更改已推送",
+      "settingsUpdated": "设置已更新",
+      "settingsUpdatedDesc": "系统配置已更改",
+      "dataExported": "数据已导出",
+      "dataExportedDesc": "月度报告已生成",
+      "viewAll": "查看全部"
+    }
+  },
+  "theme": {
+    "light": "浅色",
+    "dark": "深色",
+    "system": "系统",
+    "toggleTheme": "切换主题"
+  },
+  "language": {
+    "selectLanguage": "选择语言",
+    "english": "English",
+    "chinese": "中文",
+    "spanish": "Español",
+    "french": "Français",
+    "german": "Deutsch",
+    "japanese": "日本語",
+    "korean": "한국어",
+    "portuguese": "Português",
+    "russian": "Русский",
+    "italian": "Italiano",
+    "dutch": "Nederlands",
+    "arabic": "العربية",
+    "hindi": "हिन्दी"
+  },
+  "errors": {
+    "404": {
+      "title": "页面未找到",
+      "description": "您查找的页面不存在。",
+      "action": "返回首页"
+    },
+    "500": {
+      "title": "内部服务器错误",
+      "description": "我们这边出了点问题。",
+      "action": "重试"
+    },
+    "unauthorized": {
+      "title": "未授权",
+      "description": "您需要登录才能访问此页面。",
+      "action": "登录"
+    },
+    "forbidden": {
+      "title": "禁止访问",
+      "description": "您没有权限访问此资源。",
+      "action": "返回"
+    }
+  },
+  "footer": {
+    "description": "构建现代 Web 应用程序的完整解决方案。",
+    "copyright": "版权所有。",
+    "madeWith": "用心制作",
+    "using": "使用",
+    "sections": {
+      "product": "产品",
+      "company": "公司",
+      "resources": "资源"
+    },
+    "product": {
+      "features": "功能特性",
+      "pricing": "价格方案",
+      "docs": "文档",
+      "changelog": "更新日志"
+    },
+    "company": {
+      "about": "关于我们",
+      "blog": "博客",
+      "careers": "招聘",
+      "contact": "联系我们"
+    },
+    "legal": {
+      "privacy": "隐私政策",
+      "terms": "服务条款",
+      "cookies": "Cookie 政策",
+      "licenses": "许可证"
+    },
+    "resources": {
+      "community": "社区",
+      "help": "帮助中心",
+      "status": "服务状态",
+      "api": "API 文档"
+    },
+    "links": {
+      "privacy": "隐私政策",
+      "terms": "服务条款",
+      "support": "支持",
+      "documentation": "文档"
+    }
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "view": "View",
+    "download": "Download",
+    "upload": "Upload",
+    "copy": "Copy",
+    "share": "Share",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "dashboard": "Dashboard",
+    "welcome": "Welcome",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "dashboard": "Dashboard",
+    "login": "Login",
+    "register": "Register",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "docs": "Docs",
+    "help": "Help",
+    "profile": "Profile",
+    "settings": "Settings",
+    "signOut": "Sign Out",
+    "signIn": "Sign In",
+    "signUp": "Sign Up"
+  },
+  "languages": {
+    "selectLanguage": "Select Language",
+    "english": "English",
+    "chinese": "中文"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "rememberMe": "Remember me",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "signInWithGoogle": "Sign in with Google",
+    "signInWithGitHub": "Sign in with GitHub",
+    "orContinueWith": "Or continue with",
+    "welcomeBack": "Welcome back",
+    "createAccount": "Create your account",
+    "signInToAccount": "Sign in to your account",
+    "enterEmailPassword": "Enter your email and password to sign in",
+    "enterDetailsToCreate": "Enter your details to create an account",
+    "invalidCredentials": "Invalid credentials",
+    "accountCreated": "Account created successfully",
+    "signedIn": "Signed in successfully",
+    "signedOut": "Signed out successfully",
+    "emailRequired": "Email is required",
+    "passwordRequired": "Password is required",
+    "passwordTooShort": "Password must be at least 8 characters",
+    "passwordsDoNotMatch": "Passwords do not match",
+    "invalidEmail": "Invalid email address",
+    "login": {
+      "error": "Login Error",
+      "success": "Login Successful",
+      "invalidCredentials": "Invalid email or password",
+      "welcomeBack": "Welcome back!",
+      "somethingWrong": "Something went wrong. Please try again.",
+      "continueWithGithub": "Continue with GitHub",
+      "continueWithGoogle": "Continue with Google",
+      "orContinueWith": "Or continue with email",
+      "email": "Email",
+      "password": "Password",
+      "emailPlaceholder": "Enter your email",
+      "passwordPlaceholder": "Enter your password",
+      "signIn": "Sign In",
+      "forgotPassword": "Forgot your password?"
+    },
+    "register": {
+      "error": "Registration Error",
+      "success": "Registration Successful",
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "passwordTooShort": "Password must be at least 8 characters",
+      "passwordMismatch": "Passwords do not match",
+      "acceptTermsRequired": "You must accept the terms and conditions",
+      "accountCreated": "Account created successfully!",
+      "somethingWrong": "Something went wrong. Please try again.",
+      "continueWithGithub": "Continue with GitHub",
+      "continueWithGoogle": "Continue with Google",
+      "orContinueWith": "Or continue with email",
+      "name": "Full Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "namePlaceholder": "Enter your full name",
+      "emailPlaceholder": "Enter your email",
+      "passwordPlaceholder": "Create a password",
+      "confirmPasswordPlaceholder": "Confirm your password",
+      "passwordHint": "Must be at least 8 characters",
+      "acceptTerms": "I agree to the",
+      "termsOfService": "Terms of Service",
+      "and": "and",
+      "privacyPolicy": "Privacy Policy",
+      "createAccount": "Create Account"
+    }
+  },
+  "home": {
+    "title": "NextJS Modern Scaffold",
+    "subtitle": "Modern Next.js 15 Scaffold with TypeScript, Tailwind CSS, Shadcn UI, NextAuth, Supabase, i18n, and AI Integration",
+    "description": "A production-ready template with all the modern tools and best practices you need to build amazing web applications.",
+    "features": {
+      "title": "Features",
+      "auth": {
+        "title": "Authentication",
+        "description": "NextAuth 5.0 with OAuth providers and session management"
+      },
+      "i18n": {
+        "title": "Internationalization",
+        "description": "13 languages support with dynamic routing"
+      },
+      "ui": {
+        "title": "Modern UI",
+        "description": "Shadcn UI components with dark/light theme"
+      },
+      "dx": {
+        "title": "Developer Experience",
+        "description": "TypeScript, ESLint, Prettier, and hot reload"
+      }
+    },
+    "cta": {
+      "primary": "Get Started",
+      "secondary": "View Documentation"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome to your dashboard, {name}!",
+    "subtitle": "Here's what's happening with your account today.",
+    "status": "All systems operational",
+    "overview": "Overview",
+    "overviewDescription": "Get a quick overview of your key metrics and recent activity.",
+    "analytics": "Analytics",
+    "activity": "Activity",
+    "reports": "Reports",
+    "users": "Users",
+    "settings": "Settings",
+    "recentActivity": "Recent Activity",
+    "quickActions": "Quick Actions",
+    "userProfile": "User Profile",
+    "stats": {
+      "totalUsers": "Total Users",
+      "activeUsers": "Active Users",
+      "revenue": "Revenue",
+      "growth": "Growth",
+      "totalUsersDesc": "Total registered users",
+      "activeUsersDesc": "Users active this week",
+      "revenueDesc": "Total revenue this month",
+      "growthDesc": "Growth rate this quarter",
+      "fromLastMonth": "from last month",
+      "fromLastWeek": "from last week",
+      "fromLastQuarter": "from last quarter"
+    },
+    "quickActions": {
+      "createProject": "Create Project",
+      "createProjectDesc": "Start a new project",
+      "newDocument": "New Document",
+      "newDocumentDesc": "Create a new document",
+      "inviteUsers": "Invite Users",
+      "inviteUsersDesc": "Invite team members",
+      "viewAnalytics": "View Analytics",
+      "viewAnalyticsDesc": "Check your analytics",
+      "exportData": "Export Data",
+      "exportDataDesc": "Export your data",
+      "importData": "Import Data",
+      "importDataDesc": "Import external data",
+      "sendNewsletter": "Send Newsletter",
+      "sendNewsletterDesc": "Send newsletter to subscribers",
+      "manageSettings": "Manage Settings",
+      "manageSettingsDesc": "Configure your settings"
+    },
+    "recentActivity": {
+      "documentCreated": "Document Created",
+      "documentCreatedDesc": "New project documentation",
+      "userJoined": "User Joined",
+      "userJoinedDesc": "New team member joined",
+      "codeCommitted": "Code Committed",
+      "codeCommittedDesc": "Latest changes pushed",
+      "settingsUpdated": "Settings Updated",
+      "settingsUpdatedDesc": "System configuration changed",
+      "dataExported": "Data Exported",
+      "dataExportedDesc": "Monthly report generated",
+      "viewAll": "View All"
+    }
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "toggleTheme": "Toggle theme"
+  },
+  "language": {
+    "selectLanguage": "Select Language",
+    "english": "English",
+    "chinese": "中文",
+    "spanish": "Español",
+    "french": "Français",
+    "german": "Deutsch",
+    "japanese": "日本語",
+    "korean": "한국어",
+    "portuguese": "Português",
+    "russian": "Русский",
+    "italian": "Italiano",
+    "dutch": "Nederlands",
+    "arabic": "العربية",
+    "hindi": "हिन्दी"
+  },
+  "errors": {
+    "404": {
+      "title": "Page not found",
+      "description": "The page you are looking for does not exist.",
+      "action": "Go back home"
+    },
+    "500": {
+      "title": "Internal server error",
+      "description": "Something went wrong on our end.",
+      "action": "Try again"
+    },
+    "unauthorized": {
+      "title": "Unauthorized",
+      "description": "You need to sign in to access this page.",
+      "action": "Sign in"
+    },
+    "forbidden": {
+      "title": "Forbidden",
+      "description": "You don't have permission to access this resource.",
+      "action": "Go back"
+    }
+  },
+  "footer": {
+    "description": "A complete solution for building modern web applications.",
+    "copyright": "All rights reserved.",
+    "madeWith": "Made with",
+    "using": "using",
+    "sections": {
+      "product": "Product",
+      "company": "Company",
+      "resources": "Resources"
+    },
+    "product": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "docs": "Documentation",
+      "changelog": "Changelog"
+    },
+    "company": {
+      "about": "About Us",
+      "blog": "Blog",
+      "careers": "Careers",
+      "contact": "Contact Us"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy",
+      "licenses": "Licenses"
+    },
+    "resources": {
+      "community": "Community",
+      "help": "Help Center",
+      "status": "Status",
+      "api": "API Documentation"
+    },
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "support": "Support",
+      "documentation": "Documentation"
+    }
+  }
+}
