@@ -72,7 +72,7 @@ function ActivityItemComponent({ item }: { item: ActivityItem }) {
 
   return (
     <div className="flex items-start space-x-3 p-3 rounded-lg hover:bg-muted/50 transition-colors">
-      <div className="flex-shrink-0 mt-1">
+      <div className="shrink-0 mt-1">
         {item.user ? (
           <Avatar className="h-8 w-8">
             <AvatarImage src={item.user.avatar} alt={item.user.name} />

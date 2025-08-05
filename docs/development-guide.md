@@ -164,7 +164,7 @@ import type { ComponentProps } from 'react'
 
 // 1. 类型定义
 interface ButtonProps extends ComponentProps<'button'> {
-  variant?: 'primary' | 'secondary' | 'outline'
+  variant?: 'primary' | 'secondary' | 'outline-solid'
   size?: 'sm' | 'md' | 'lg'
   loading?: boolean
 }
@@ -188,7 +188,7 @@ export function Button({
         {
           'bg-primary text-primary-foreground hover:bg-primary/90': variant === 'primary',
           'bg-secondary text-secondary-foreground hover:bg-secondary/80': variant === 'secondary',
-          'border border-input bg-background hover:bg-accent': variant === 'outline',
+          'border border-input bg-background hover:bg-accent': variant === 'outline-solid',
         },
         // 尺寸样式
         {
@@ -320,7 +320,7 @@ function Card({ className, ...props }) {
   return (
     <div
       className={cn(
-        'rounded-lg border bg-card text-card-foreground shadow-sm',
+        'rounded-lg border bg-card text-card-foreground shadow-xs',
         className
       )}
       {...props}

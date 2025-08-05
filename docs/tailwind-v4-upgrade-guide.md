@@ -191,19 +191,19 @@ rm tailwind.config.ts
 <mcreference link="https://dev.to/kasenda/whats-new-and-migration-guide-tailwind-css-v40-3kag" index="4">4</mcreference>
 ```html
 <!-- 旧版本 → 新版本 -->
-<div class="shadow-sm">     → <div class="shadow-xs">
-<div class="shadow">        → <div class="shadow-sm">
+<div class="shadow-xs">     → <div class="shadow-2xs">
+<div class="shadow-sm">        → <div class="shadow-xs">
 <div class="rounded-sm">    → <div class="rounded-xs">
 <div class="rounded">       → <div class="rounded-sm">
-<div class="blur-sm">       → <div class="blur-xs">
-<div class="blur">          → <div class="blur-sm">
+<div class="blur-xs">       → <div class="blur-xs">
+<div class="blur-sm">          → <div class="blur-xs">
 
 <!-- 移除的工具类 -->
 <div class="bg-opacity-50">     → <div class="bg-black/50">
 <div class="text-opacity-75">   → <div class="text-black/75">
-<div class="flex-shrink-0">     → <div class="shrink-0">
-<div class="flex-grow">         → <div class="grow">
-<div class="overflow-ellipsis"> → <div class="text-ellipsis">
+<div class="shrink-0">     → <div class="shrink-0">
+<div class="grow">         → <div class="grow">
+<div class="text-ellipsis"> → <div class="text-ellipsis">
 ```
 
 #### 6. 更新自定义工具类
