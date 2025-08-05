@@ -66,7 +66,7 @@ function ActivityItemComponent({ item }: { item: ActivityItem }) {
       case "error":
         return "bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-300";
       default:
-        return "bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300";
+        return "bg-muted text-muted-foreground";
     }
   };
 
@@ -113,9 +113,9 @@ function ActivityItemComponent({ item }: { item: ActivityItem }) {
           
           {item.metadata?.link && (
             <Button variant="ghost" size="sm" className="h-6 px-2" asChild>
-              <Link href={item.metadata.link}>
+              <a href={item.metadata.link} target="_blank" rel="noopener noreferrer">
                 <ExternalLink className="h-3 w-3" />
-              </Link>
+              </a>
             </Button>
           )}
         </div>
@@ -222,9 +222,9 @@ export function RecentActivity() {
         
         <div className="p-4 border-t">
           <Button variant="outline" className="w-full" asChild>
-            <Link href="/activity">
+            <a href="/activity">
               {t("viewAll")}
-            </Link>
+            </a>
           </Button>
         </div>
       </CardContent>

@@ -191,19 +191,19 @@ rm tailwind.config.ts
 <mcreference link="https://dev.to/kasenda/whats-new-and-migration-guide-tailwind-css-v40-3kag" index="4">4</mcreference>
 ```html
 <!-- 旧版本 → 新版本 -->
-<div class="shadow-xs">     → <div class="shadow-2xs">
-<div class="shadow-sm">        → <div class="shadow-xs">
+<div class="shadow-sm">     → <div class="shadow-xs">
+<div class="shadow">        → <div class="shadow-sm">
 <div class="rounded-sm">    → <div class="rounded-xs">
 <div class="rounded">       → <div class="rounded-sm">
-<div class="blur-xs">       → <div class="blur-xs">
-<div class="blur-sm">          → <div class="blur-xs">
+<div class="blur-sm">       → <div class="blur-xs">
+<div class="blur">          → <div class="blur-sm">
 
 <!-- 移除的工具类 -->
 <div class="bg-opacity-50">     → <div class="bg-black/50">
 <div class="text-opacity-75">   → <div class="text-black/75">
-<div class="shrink-0">     → <div class="shrink-0">
-<div class="grow">         → <div class="grow">
-<div class="text-ellipsis"> → <div class="text-ellipsis">
+<div class="flex-shrink-0">     → <div class="shrink-0">
+<div class="flex-grow">         → <div class="grow">
+<div class="overflow-ellipsis"> → <div class="text-ellipsis">
 ```
 
 #### 6. 更新自定义工具类
@@ -252,7 +252,7 @@ rm tailwind.config.ts
 - [ ] 动画效果正常
 - [ ] 构建产物大小合理
 
-## ⚠️ 注意事项
+## ⚠️ 注意事项与常见问题
 
 ### 1. 浏览器兼容性
 <mcreference link="https://tailwindcss.com/docs/upgrade-guide" index="1">1</mcreference>
@@ -278,6 +278,44 @@ rm tailwind.config.ts
 - 容器查询支持
 - 3D变换工具
 - P3色彩空间
+
+### 5. 🚨 实际遇到的问题
+
+#### 字体模块错误
+**问题**: Next.js 15 + Turbopack 组合可能导致字体模块解析错误
+```bash
+⨯ Module parse failed: Unexpected token (1:0)
+```
+
+**解决方案**: 移除 `--turbopack` 标志
+```json
+{
+  "scripts": {
+    "dev": "next dev --port 3003"  // 移除 --turbopack
+  }
+}
+```
+
+#### 边框显示问题
+**问题**: 边框不显示或显示为黑色
+
+**原因**: CSS 重置规则冲突
+```css
+/* 问题代码 */
+* {
+  border: 0;  /* 移除所有边框 */
+  border-color: currentcolor;  /* 继承文本颜色 */
+}
+```
+
+**解决方案**: 修正 CSS 重置
+```css
+/* 正确的重置方式 */
+* {
+  box-sizing: border-box;
+  border-color: hsl(var(--border));
+}
+```
 
 ## 🚀 升级后优化建议
 
@@ -308,11 +346,21 @@ rm tailwind.config.ts
 
 ## 📚 参考资源
 
+### 官方文档
 - [Tailwind CSS v4 官方升级指南](https://tailwindcss.com/docs/upgrade-guide)
 - [Tailwind CSS v4 发布公告](https://tailwindcss.com/blog/tailwindcss-v4)
 - [自动升级工具文档](https://github.com/tailwindlabs/tailwindcss/tree/next/packages/%40tailwindcss-upgrade)
 - [v4新特性详解](https://tailwindcss.com/docs)
 
+### 项目内部文档
+- [边框问题详细解决方案](./border-issues-resolution.md) - 边框显示问题的完整分析和解决方案
+- [升级经验总结](./upgrade-lessons-learned.md) - 实际升级过程中的经验教训和最佳实践
+- [项目结构说明](./project-structure.md) - 了解项目整体架构
+- [开发指南](./development-guide.md) - 日常开发流程和规范
+
 ---
 
-**建议**: 在正式升级前，建议在新分支中进行测试，确保所有功能正常后再合并到主分支。
+**重要提醒**: 
+1. 在正式升级前，建议在新分支中进行测试，确保所有功能正常后再合并到主分支
+2. 特别关注边框、字体等视觉元素的显示效果
+3. 如遇到问题，请参考项目内部文档中的详细解决方案

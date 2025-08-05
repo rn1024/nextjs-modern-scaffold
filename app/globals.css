@@ -76,11 +76,10 @@
 */
 @layer base {
   *,
-  ::after,
   ::before,
   ::backdrop,
   ::file-selector-button {
-    border-color: var(--color-gray-200, currentcolor);
+    border-color: hsl(var(--border));
   }
 }
 
@@ -173,7 +172,6 @@
 
 @layer base {
   * {
-    border: 0;
     box-sizing: border-box;
   }
 
