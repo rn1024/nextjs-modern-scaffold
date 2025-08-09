@@ -59,7 +59,7 @@ export interface PaginatedResponse<T> {
 
 // UI Component types
 export interface ButtonProps {
-  variant?: "default" | "destructive" | "outline" | "secondary" | "ghost" | "link";
+  variant?: "default" | "destructive" | "outline-solid" | "secondary" | "ghost" | "link";
   size?: "default" | "sm" | "lg" | "icon";
   asChild?: boolean;
 }

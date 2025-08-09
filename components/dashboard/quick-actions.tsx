@@ -21,7 +21,7 @@ interface QuickActionProps {
   icon: React.ReactNode;
   href?: string;
   onClick?: () => void;
-  variant?: "default" | "outline" | "secondary";
+  variant?: "default" | "outline-solid" | "secondary";
 }
 
 function QuickAction({ 
@@ -30,7 +30,7 @@ function QuickAction({
   icon, 
   href, 
   onClick, 
-  variant = "outline" 
+  variant = "outline-solid" 
 }: QuickActionProps) {
   const content = (
     <Button 
