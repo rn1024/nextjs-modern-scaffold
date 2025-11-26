@@ -3,7 +3,7 @@
 import { useTranslations } from "next-intl";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Link } from "@/i18n/routing";
+import Link from "next/link";
 import { 
   Plus, 
   FileText, 
@@ -21,16 +21,16 @@ interface QuickActionProps {
   icon: React.ReactNode;
   href?: string;
   onClick?: () => void;
-  variant?: "default" | "outline-solid" | "secondary";
+  variant?: "default" | "outline" | "secondary";
 }
 
-function QuickAction({ 
-  title, 
-  description, 
-  icon, 
-  href, 
-  onClick, 
-  variant = "outline-solid" 
+function QuickAction({
+  title,
+  description,
+  icon,
+  href,
+  onClick,
+  variant = "outline"
 }: QuickActionProps) {
   const content = (
     <Button 

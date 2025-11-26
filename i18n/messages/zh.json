@@ -62,6 +62,7 @@
     "chinese": "中文"
   },
   "auth": {
+    "backToHome": "返回首页",
     "signIn": "登录",
     "signUp": "注册",
     "signOut": "退出登录",
@@ -90,6 +91,10 @@
     "passwordsDoNotMatch": "密码不匹配",
     "invalidEmail": "无效的邮箱地址",
     "login": {
+      "title": "登录",
+      "description": "登录您的账户以继续",
+      "subtitle": "欢迎回来！请登录以继续。",
+      "noAccount": "还没有账户？",
       "error": "登录错误",
       "success": "登录成功",
       "invalidCredentials": "邮箱或密码无效",
@@ -106,6 +111,16 @@
       "forgotPassword": "忘记密码？"
     },
     "register": {
+      "title": "创建账户",
+      "description": "创建新账户以开始使用",
+      "subtitle": "立即加入我们！创建您的账户。",
+      "hasAccount": "已有账户？",
+      "features": {
+        "title": "为什么加入我们？",
+        "secure": "企业级数据安全保护",
+        "community": "加入我们不断壮大的社区",
+        "fast": "快速可靠的平台"
+      },
       "error": "注册错误",
       "success": "注册成功",
       "nameRequired": "姓名是必需的",
@@ -132,6 +147,10 @@
       "and": "和",
       "privacyPolicy": "隐私政策",
       "createAccount": "创建账户"
+    },
+    "demo": {
+      "title": "演示模式",
+      "description": "使用 OAuth 提供商测试身份验证流程。"
     }
   },
   "home": {
@@ -164,6 +183,7 @@
   },
   "dashboard": {
     "title": "仪表板",
+    "description": "查看和管理您的账户仪表板",
     "welcome": "欢迎来到您的仪表板，{name}！",
     "subtitle": "这是您今天账户的最新动态。",
     "status": "所有系统运行正常",
@@ -177,6 +197,13 @@
     "recentActivity": "最近活动",
     "quickActions": "快速操作",
     "userProfile": "用户资料",
+    "joinDate": "加入时间",
+    "lastLogin": "最后登录",
+    "accountType": "账户类型",
+    "editProfile": "编辑资料",
+    "accountSettings": "账户设置",
+    "projects": "项目",
+    "tasks": "任务",
     "stats": {
       "totalUsers": "总用户数",
       "activeUsers": "活跃用户",
@@ -191,6 +218,8 @@
       "fromLastQuarter": "较上季度"
     },
     "quickActions": {
+      "title": "快速操作",
+      "description": "常用操作",
       "createProject": "创建项目",
       "createProjectDesc": "开始一个新项目",
       "newDocument": "新建文档",
@@ -209,6 +238,8 @@
       "manageSettingsDesc": "配置您的设置"
     },
     "recentActivity": {
+      "title": "最近活动",
+      "description": "您的最新操作和更新",
       "documentCreated": "文档已创建",
       "documentCreatedDesc": "新项目文档",
       "userJoined": "用户加入",
@@ -217,6 +248,10 @@
       "codeCommittedDesc": "最新更改已推送",
       "settingsUpdated": "设置已更新",
       "settingsUpdatedDesc": "系统配置已更改",
+      "systemUpdate": "系统更新",
+      "systemUpdateDesc": "系统维护已完成",
+      "commentAdded": "新增评论",
+      "commentAddedDesc": "讨论区新评论",
       "dataExported": "数据已导出",
       "dataExportedDesc": "月度报告已生成",
       "viewAll": "查看全部"

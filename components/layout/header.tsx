@@ -17,7 +17,7 @@ import { Badge } from "@/components/ui/badge";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { ThemeToggle } from "@/components/theme/theme-toggle";
 import { LanguageToggle } from "@/components/layout/language-toggle";
-import { Link } from "@/i18n/routing";
+import Link from "next/link";
 import { 
   Menu, 
   User, 

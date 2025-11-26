@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Link } from "@/i18n/routing";
+import Link from "next/link";
 import { User, Settings, Crown, Calendar } from "lucide-react";
 import { getInitials, formatDate } from "@/lib/utils";
 import type { User as UserType } from "next-auth";

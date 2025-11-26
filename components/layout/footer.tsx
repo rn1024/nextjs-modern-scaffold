@@ -3,7 +3,7 @@
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { Link } from "@/i18n/routing";
+import Link from "next/link";
 import { 
   Github, 
   Twitter, 

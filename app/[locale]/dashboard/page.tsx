@@ -1,6 +1,5 @@
 import { redirect } from "next/navigation";
-import { getServerSession } from "next-auth";
-import { authOptions } from "@/lib/auth";
+import { auth } from "@/lib/auth";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { Button } from "@/components/ui/button";
@@ -40,7 +39,7 @@ export async function generateMetadata({ params }: Props) {
 
 export default async function DashboardPage({ params }: Props) {
   const { locale } = await params;
-  const session = await getServerSession(authOptions);
+  const session = await auth();
 
   if (!session) {
     redirect("/login");
@@ -84,7 +83,7 @@ export default async function DashboardPage({ params }: Props) {
                     <DashboardOverview />
                   </CardTitle>
                   <CardDescription>
-                    <DashboardOverviewDesc />
+                    <DashboardOverviewDescription />
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
