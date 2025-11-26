@@ -1,34 +1,3 @@
-import { type User } from "next-auth";
-import { type JWT } from "next-auth/jwt";
-
-// Extend the built-in session types
-declare module "next-auth" {
-  interface Session {
-    user: {
-      id: string;
-      email: string;
-      name?: string | null;
-      image?: string | null;
-    };
-  }
-
-  interface User {
-    id: string;
-    email: string;
-    name?: string | null;
-    image?: string | null;
-  }
-}
-
-declare module "next-auth/jwt" {
-  interface JWT {
-    id: string;
-    email: string;
-    name?: string | null;
-    picture?: string | null;
-  }
-}
-
 // Common types
 export interface ApiResponse<T = any> {
   success: boolean;

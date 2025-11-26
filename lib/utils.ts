@@ -40,7 +40,7 @@ export function slugify(str: string): string {
     .replace(/[^a-z0-9 -]/g, "")
     .replace(/\s+/g, "-")
     .replace(/-+/g, "-")
-    .trim("-");
+    .replace(/^-+|-+$/g, "");
 }
 
 export function capitalize(str: string): string {
