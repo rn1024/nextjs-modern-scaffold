@@ -62,6 +62,7 @@
     "chinese": "中文"
   },
   "auth": {
+    "backToHome": "Back to Home",
     "signIn": "Sign In",
     "signUp": "Sign Up",
     "signOut": "Sign Out",
@@ -90,6 +91,10 @@
     "passwordsDoNotMatch": "Passwords do not match",
     "invalidEmail": "Invalid email address",
     "login": {
+      "title": "Sign In",
+      "description": "Sign in to your account to continue",
+      "subtitle": "Welcome back! Please sign in to continue.",
+      "noAccount": "Don't have an account?",
       "error": "Login Error",
       "success": "Login Successful",
       "invalidCredentials": "Invalid email or password",
@@ -106,6 +111,16 @@
       "forgotPassword": "Forgot your password?"
     },
     "register": {
+      "title": "Create Account",
+      "description": "Create a new account to get started",
+      "subtitle": "Join us today! Create your account.",
+      "hasAccount": "Already have an account?",
+      "features": {
+        "title": "Why join us?",
+        "secure": "Enterprise-grade security for your data",
+        "community": "Join our growing community",
+        "fast": "Fast and reliable platform"
+      },
       "error": "Registration Error",
       "success": "Registration Successful",
       "nameRequired": "Name is required",
@@ -132,6 +147,10 @@
       "and": "and",
       "privacyPolicy": "Privacy Policy",
       "createAccount": "Create Account"
+    },
+    "demo": {
+      "title": "Demo Mode",
+      "description": "Use OAuth providers to test the authentication flow."
     }
   },
   "home": {
@@ -164,6 +183,7 @@
   },
   "dashboard": {
     "title": "Dashboard",
+    "description": "View and manage your account dashboard",
     "welcome": "Welcome to your dashboard, {name}!",
     "subtitle": "Here's what's happening with your account today.",
     "status": "All systems operational",
@@ -177,6 +197,13 @@
     "recentActivity": "Recent Activity",
     "quickActions": "Quick Actions",
     "userProfile": "User Profile",
+    "joinDate": "Joined",
+    "lastLogin": "Last Login",
+    "accountType": "Account Type",
+    "editProfile": "Edit Profile",
+    "accountSettings": "Account Settings",
+    "projects": "Projects",
+    "tasks": "Tasks",
     "stats": {
       "totalUsers": "Total Users",
       "activeUsers": "Active Users",
@@ -191,6 +218,8 @@
       "fromLastQuarter": "from last quarter"
     },
     "quickActions": {
+      "title": "Quick Actions",
+      "description": "Frequently used actions",
       "createProject": "Create Project",
       "createProjectDesc": "Start a new project",
       "newDocument": "New Document",
@@ -209,6 +238,8 @@
       "manageSettingsDesc": "Configure your settings"
     },
     "recentActivity": {
+      "title": "Recent Activity",
+      "description": "Your latest actions and updates",
       "documentCreated": "Document Created",
       "documentCreatedDesc": "New project documentation",
       "userJoined": "User Joined",
@@ -217,6 +248,10 @@
       "codeCommittedDesc": "Latest changes pushed",
       "settingsUpdated": "Settings Updated",
       "settingsUpdatedDesc": "System configuration changed",
+      "systemUpdate": "System Update",
+      "systemUpdateDesc": "System maintenance completed",
+      "commentAdded": "Comment Added",
+      "commentAddedDesc": "New comment on discussion",
       "dataExported": "Data Exported",
       "dataExportedDesc": "Monthly report generated",
       "viewAll": "View All"
