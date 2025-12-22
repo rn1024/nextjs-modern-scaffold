@@ -12,10 +12,6 @@ const nextConfig = {
   output: "standalone",
   reactStrictMode: false,
   pageExtensions: ["ts", "tsx", "js", "jsx"],
-  eslint: {
-    // 在构建时忽略 ESLint 错误，允许构建通过
-    ignoreDuringBuilds: true,
-  },
   images: {
     remotePatterns: [
       {
